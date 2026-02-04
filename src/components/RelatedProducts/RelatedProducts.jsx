@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { ShopContext } from '../../context/ShopContext'
-import Item from '../../components/item/item'
+import Item from '../item/item'
 
 const RelatedProducts = () => {
   const { all_product } = useContext(ShopContext)
